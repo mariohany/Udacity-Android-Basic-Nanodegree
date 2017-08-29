@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="Hotel">Hotels</string>
+    <string name="Museum">Museums</string>
+    <string name="Place">Places</string>
+    <string name="Restaurant">Restaurants</string>
+    <string name="spectra_name">Spectra</string>
+    <string name="spectra_des">A nice restaurant in front of the nile</string>
+    <string name="spectra_location">https://www.google.com.eg/maps/place/Spectra+Restaurant+%26+Cafe/@30.0654303,31.2292369,17.63z/data=!4m5!3m4!1s0x0:0xf040b12982cef1ad!8m2!3d30.0656422!4d31.227082?hl=ar</string>
+    <string name="felfela_name">Felfela</string>
+    <string name="felfela_des">good restaurant have an old decoration style.</string>
+    <string name="felfela_location">https://www.google.com.eg/maps/place/%D9%81%D9%84%D9%81%D9%84%D8%A9+%D8%B9%D9%84%D8%A7%D8%A1+%D8%A7%D9%84%D8%AF%D9%8A%D9%86%E2%80%AD/@30.0464088,31.2378873,15z/data=!4m5!3m4!1s0x0:0x2d61a5dc7f34e0b6!8m2!3d30.0464088!4d31.2378873</string>
+    <string name="egyptian_museum_name">Egyptian Museum</string>
+    <string name="egyptian_museum_des">This museum contain the most Pharaonic monuments in the world.</string>
+    <string name="egyptian_museum_location">https://www.google.com.eg/maps/place/%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D9%81+%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A+%D8%A8%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9%E2%80%AD/@30.045964,31.232073,15z/data=!4m12!1m6!3m5!1s0x0:0xc9fcbc4a106d88ca!2z2YbYp9mK2YQg2LHZitiq2LIg2YPYp9ix2YTYqtmI2YY!8m2!3d30.045964!4d31.232073!3m4!1s0x0:0x11c178f53ce58ee3!8m2!3d30.0478477!4d31.2336481</string>
+    <string name="islamic_museum_name">Islamic Museum</string>
+    <string name="islamic_museum_des">This museum is an Islamic Architecture building and contain islamic monuments.</string>
+    <string name="islamic_museum_location">https://www.google.com.eg/maps/place/%D9%85%D8%AA%D8%AD%D9%81+%D8%A7%D9%84%D9%81%D9%86+%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%89%E2%80%AD/@30.0447002,31.252904,15z/data=!4m5!3m4!1s0x0:0xad7d1092373bae8b!8m2!3d30.0447002!4d31.252904</string>
+    <string name="coptic_museum_name">Coptic Museum</string>
+    <string name="coptic_museum_des">it is a good museum and contain a lot of coptic art and monuments</string>
+    <string name="coptic_museum_location">https://www.google.com.eg/maps/place/%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D9%81+%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%E2%80%AD/@30.0060382,31.2301827,15z/data=!4m5!3m4!1s0x0:0x5c7b299fa692161a!8m2!3d30.0060382!4d31.2301827</string>
+    <string name="grand_hotel_name">Grand Hotel : Aswan</string>
+    <string name="grand_hotel_des">A nice hotel in aswan have a nice view on the Nile</string>
+    <string name="grand_hotel_location">https://www.google.com.eg/maps/place/Sofitel+Legend+Old+Cataract+Aswan/@24.0821326,32.8875679,15z/data=!4m5!3m4!1s0x0:0xd7b40165e879feed!8m2!3d24.0821326!4d32.8875679</string>
+    <string name="nile_ritz_carlton">Nile Ritz Carlton</string>
+    <string name="nile_ritz_carlton_des">A nice hotel in cairo next to Egyptian Museum</string>
+    <string name="nile_ritz_carlton_location">https://www.google.com.eg/maps/place/%D9%86%D8%A7%D9%8A%D9%84+%D8%B1%D9%8A%D8%AA%D8%B2+%D9%83%D8%A7%D8%B1%D9%84%D8%AA%D9%88%D9%86%E2%80%AD/@30.045964,31.232073,15z/data=!4m5!3m4!1s0x0:0xc9fcbc4a106d88ca!8m2!3d30.045964!4d31.232073</string>
+    <string name="abo_simble_temple">Abo Simble Temple</string>
+    <string name="abo_simble_temple_des">A pharonic temple Contains huge Statue which are attached in mountain.</string>
+    <string name="abo_simble_temple_location">https://www.google.com.eg/maps/place/%D9%85%D8%B9%D8%A7%D8%A8%D8%AF+%D8%A3%D8%A8%D9%88+%D8%B3%D9%85%D8%A8%D9%84%E2%80%AD/@22.3372319,31.625799,15z/data=!4m5!3m4!1s0x0:0xa7d3cc6618f898d2!8m2!3d22.3372319!4d31.625799</string>
+    <string name="giza_pyramids">Giza Pyramids</string>
+    <string name="giza_pyramids_des">A huge Pharonic tomp and one of the 7 world wander.</string>
+    <string name="giza_pyramids_location">https://www.google.com.eg/maps/place/%D8%A3%D9%87%D8%B1%D8%A7%D9%85%D8%A7%D8%AA+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9%E2%80%AD/@29.9772962,31.1324955,15z/data=!4m5!3m4!1s0x0:0xca7474355a6e368b!8m2!3d29.9772962!4d31.1324955</string>
+    <string name="blue_hole">Blue Hole</string>
+    <string name="blue_hole_des">it is the best place to enjoy Snorkeling in the world.</string>
+    <string name="blue_hole_location">https://www.google.com.eg/maps/place/Blue+Hole/@28.5721793,34.537062,15z/data=!4m12!1m6!3m5!1s0x0:0xab2c5187320a49aa!2sBlue+Hole!8m2!3d28.5721793!4d34.537062!3m4!1s0x0:0xab2c5187320a49aa!8m2!3d28.5721793!4d34.537062</string>
+    <string name="kan_el_kalely">Kan El Kalely</string>
+    <string name="kan_el_kalely_des">A nice market which have a lot of souvenirs and antique.</string>
+    <string name="kan_el_kalely_location">https://www.google.com.eg/maps/place/%D8%AE%D8%A7%D9%86+%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%84%D9%8A%E2%80%AD/@30.0477386,31.2622538,15z/data=!4m12!1m6!3m5!1s0x0:0x1761e0e461027d11!2z2K7Yp9mGINin2YTYrtmE2YrZhNmK!8m2!3d30.0477386!4d31.2622538!3m4!1s0x0:0x1761e0e461027d11!8m2!3d30.0477386!4d31.2622538</string>
+    <string name="aswan_nile_cruse">Aswan Nile Cruse</string>
+    <string name="aswan_nile_cruse_des">the best view and place in the world to relax and enjoy the nile cruse</string>
+    <string name="aswan_nile_cruse_location">https://www.google.com.eg/maps/place/%D8%A3%D8%B3%D9%88%D8%A7%D9%86%E2%80%AD/@24.0923336,32.9176813,14z/data=!3m1!4b1!4m5!3m4!1s0x14367b5ab1a30e5f:0xfb109fe337cabccb!8m2!3d24.088938!4d32.8998293</string>
+    <string name="wshwash_vally">Wshwash Vally</string>
+    <string name="wshwash_vally_des">A nice natural Lake inside mountain and it is made by rain is water.</string>
+    <string name="wshwash_vally_location">https://www.google.com.eg/maps/place/%D9%86%D9%88%D9%8A%D8%A8%D8%B9%D8%8C+%D9%82%D8%B3%D9%85+%D8%B0%D9%87%D8%A8%D8%8C+%D8%AC%D9%86%D9%88%D8%A8+%D8%B3%D9%8A%D9%86%D8%A7%D8%A1%E2%80%AD/@29.0313784,34.6982191,13z/data=!4m5!3m4!1s0x15aacf0e5e45bd05:0xc624077655f9c0de!8m2!3d28.9734441!4d34.6534332</string>
+</resources>

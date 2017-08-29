@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:background="#ffffff">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:id="@+id/name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name: "
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:id="@+id/quantity_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity: "
+                    android:layout_below="@+id/name_text"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    android:id="@+id/price_text"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:layout_below="@+id/quantity_text"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="N/A"
+                    android:layout_toEndOf="@+id/name_text"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:id="@+id/quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_below="@+id/name_text"
+                    android:layout_toEndOf="@+id/quantity_text"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.00"
+                    android:layout_toEndOf="@+id/price_text"
+                    android:layout_below="@+id/quantity_text"
+                    android:layout_marginBottom="8dp"/>
+                <Button
+                    android:id="@+id/sell_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sale"
+                    android:layout_below="@+id/price_text"
+                    android:layout_centerHorizontal="true"
+                    android:focusableInTouchMode="false"
+                    android:focusable="false"/>
+        </RelativeLayout>
+
+</LinearLayout>

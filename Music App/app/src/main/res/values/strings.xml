@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="songsActivity_name">Songs</string>
+    <string name="albumsActivity_name">Albums</string>
+    <string name="playlistsActivity_name">Playlists</string>
+    <string name="n1_tab">Songs</string>
+    <string name="n2_tab">Albums</string>
+    <string name="n3_tab">Playlists</string>
+    <string name="n4_tab">Favorites</string>
+    <string name="amr_diab">Amr Diab</string>
+    <string name="avicii">Avicii</string>
+    <string name="maroon5">Maroon 5</string>
+    <string name="n1_song">Ahla w Ahla</string>
+    <string name="n2_song">Wake me up</string>
+    <string name="n3_song">Waiting for love</string>
+    <string name="n4_song">Animals</string>
+    <string name="n5_song">Sugar</string>
+    <string name="n6_song">bena maad</string>
+    <string name="number_of_songs">6 Songs</string>
+
+</resources>

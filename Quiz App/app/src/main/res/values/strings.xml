@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyApp</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="edittext_hint">Answer</string>
+	<string name="question1">1).What\'s the last android version ?</string>
+	<string name="question2">2).What tools does the carpenter use ?</string>
+	<string name="q2_answer1">Hammer</string>
+	<string name="q2_answer2">spoon</string>
+	<string name="q2_answer3">Saw</string>
+	<string name="q2_answer4">Nails</string>
+	<string name="question3">3).What\'s the name of this company ?</string>
+	<string name="question4">4).Programming languages</string>
+	<string name="question5">5).What\'s tha name of this app ?</string>
+	<string name="question6">6).How many seconds in one hour ?</string>
+	<string name="q6_answer1">3700</string>
+	<string name="q6_answer2">3600</string>
+	<string name="q6_answer3">3500</string>
+</resources>

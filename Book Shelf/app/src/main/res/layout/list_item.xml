@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    style="@style/book_info_container"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        style="@style/book_name"
+        android:text="@string/book_name_text"
+        android:id="@+id/book_name"
+        android:textColor="#388E3C"/>
+
+    <TextView
+        style="@style/book_writer"
+        android:text="@string/book_writer_text"
+        android:id="@+id/book_Writer"
+        android:textColor="#C0CA33"/>
+
+    <TextView
+        android:text="@string/book_des_text"
+        android:id="@+id/book_des"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="#004D40"/>
+
+</LinearLayout>

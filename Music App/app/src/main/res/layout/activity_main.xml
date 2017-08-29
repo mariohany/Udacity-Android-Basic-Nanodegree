@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mario.musicapp.MainActivity"
+    android:id="@+id/mainLinearLayout"
+    style="@style/main_linear_layout">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="i can use MediaPlayer to play music in this app."
+        android:background="@color/p_color"/>
+
+<LinearLayout
+    style="@style/tabs_linear_layout"
+    android:background="@color/p_color">
+    <TextView
+        android:id="@+id/songsTab"
+        style="@style/tabs_layout"
+        android:text="@string/n1_tab"/>
+    <TextView
+        android:id="@+id/albumsTab"
+        style="@style/tabs_layout"
+        android:text="@string/n2_tab"/>
+    <TextView
+        android:id="@+id/playListsTab"
+        style="@style/tabs_layout"
+        android:text="@string/n3_tab"/>
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="5dp">
+    <View
+        style="@style/lineView">
+    </View>
+    <View
+        style="@style/lineView">
+    </View>
+    <View
+        style="@style/lineView">
+    </View>
+</LinearLayout>
+
+<LinearLayout
+    style="@style/mid_layout">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"/>
+</LinearLayout>
+
+<LinearLayout
+    style="@style/musicButton_linear_layout">
+    <ImageView
+        style="@style/musicButton_layout"
+        android:src="@drawable/previous"/>
+    <ImageView
+        style="@style/musicButton_layout"
+        android:src="@drawable/play"/>
+    <ImageView
+        style="@style/musicButton_layout"
+        android:src="@drawable/next"/>
+</LinearLayout>
+</LinearLayout>

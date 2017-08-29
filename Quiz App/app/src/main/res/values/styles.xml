@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+	</style>
+	<style name="question_form" >
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/blue</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:layout_marginBottom">15dp</item>
+	</style>
+	<style name="radio_image_view">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">80dp</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+	<style name="checkbox_form">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">@color/blue_500</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+	</style>
+	<style name="question_linearlayout">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:paddingLeft">10dp</item>
+		<item name="android:paddingRight">10dp</item>
+		<item name="android:paddingTop">10dp</item>
+		<item name="android:paddingBottom">30dp</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:background">@color/white</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+	<style name="radio_group_form">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:gravity">center_horizontal</item>
+	</style>
+	<style name="radio_button">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">@color/blue_500</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+	<style name="main_linearlayout">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+	<style name="edittext_form">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:hint">@string/edittext_hint</item>
+		<item name="android:inputType">textCapWords</item>
+	</style>
+	<style name="button_form">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:text">Submit</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:background">@color/blue</item>
+		<item name="android:textColor">@color/blue_50</item>
+		<item name="android:layout_marginTop">70dp</item>
+		<item name="android:layout_gravity">center_horizontal</item>
+	</style>
+	<style name="single_image">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">150dp</item>
+		<item name="android:gravity">center_horizontal</item>
+	</style>
+</resources>

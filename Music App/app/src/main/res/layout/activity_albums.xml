@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mario.musicapp.AlbumsActivity"
+    android:id="@+id/mainLinearLayout"
+    style="@style/main_linear_layout">
+
+    <LinearLayout
+        style="@style/tabs_linear_layout"
+        android:background="@color/p_color">
+        <TextView
+            android:id="@+id/songsTab"
+            style="@style/tabs_layout"
+            android:text="@string/n1_tab"/>
+        <TextView
+            android:id="@+id/albumsTab"
+            style="@style/opened_tab_layout"
+            android:text="@string/n2_tab"/>
+        <TextView
+            android:id="@+id/playListsTab"
+            style="@style/tabs_layout"
+            android:text="@string/n3_tab"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5dp">
+        <View
+            style="@style/lineView">
+        </View>
+        <View
+            style="@style/lineView">
+        </View>
+        <View
+            style="@style/lineView">
+        </View>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/mid_layout"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/amr_diab"
+                style="@style/song_image"
+                android:src="@drawable/amr_diab" />
+
+            <TextView
+                android:id="@+id/n1_song_name"
+                style="@style/song_name"
+                android:layout_toRightOf="@id/amr_diab"
+                android:text="@string/amr_diab" />
+
+            <TextView
+                style="@style/singer_name"
+                android:layout_alignLeft="@+id/n1_song_name"
+                android:layout_alignStart="@+id/n1_song_name"
+                android:layout_below="@+id/n1_song_name"
+                android:text="@string/number_of_songs" />
+        </RelativeLayout>
+
+        <View
+            style="@style/Thin_lineView">
+        </View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/avicii"
+                style="@style/song_image"
+                android:src="@drawable/avicii" />
+
+            <TextView
+                android:id="@+id/n2_song_name"
+                style="@style/song_name"
+                android:layout_toRightOf="@id/avicii"
+                android:text="@string/avicii" />
+
+            <TextView
+                style="@style/singer_name"
+                android:layout_alignLeft="@+id/n2_song_name"
+                android:layout_alignStart="@+id/n2_song_name"
+                android:layout_below="@+id/n2_song_name"
+                android:text="@string/number_of_songs" />
+        </RelativeLayout>
+
+        <View
+            style="@style/Thin_lineView">
+        </View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/maroon5"
+                style="@style/song_image"
+                android:src="@drawable/maroon5" />
+
+            <TextView
+                android:id="@+id/n3_song_name"
+                style="@style/song_name"
+                android:layout_toRightOf="@id/maroon5"
+                android:text="@string/maroon5" />
+
+            <TextView
+                style="@style/singer_name"
+                android:layout_alignLeft="@+id/n3_song_name"
+                android:layout_alignStart="@+id/n3_song_name"
+                android:layout_below="@+id/n3_song_name"
+                android:text="@string/number_of_songs" />
+        </RelativeLayout>
+
+        <View
+            style="@style/Thin_lineView">
+        </View>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/musicButton_linear_layout">
+        <ImageView
+            style="@style/musicButton_layout"
+            android:src="@drawable/previous"/>
+        <ImageView
+            style="@style/musicButton_layout"
+            android:src="@drawable/play"/>
+        <ImageView
+            style="@style/musicButton_layout"
+            android:src="@drawable/next"/>
+    </LinearLayout>
+</LinearLayout>

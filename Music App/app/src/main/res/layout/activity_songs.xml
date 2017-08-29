@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mario.musicapp.SongsActivity"
+    android:id="@+id/mainLinearLayout"
+    style="@style/main_linear_layout">
+
+    <LinearLayout
+        style="@style/tabs_linear_layout"
+        android:background="@color/p_color">
+        <TextView
+            android:id="@+id/songsTab"
+            style="@style/opened_tab_layout"
+            android:text="@string/n1_tab"/>
+        <TextView
+            android:id="@+id/albumsTab"
+            style="@style/tabs_layout"
+            android:text="@string/n2_tab"/>
+        <TextView
+            android:id="@+id/playListsTab"
+            style="@style/tabs_layout"
+            android:text="@string/n3_tab"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5dp">
+        <View
+            style="@style/lineView">
+        </View>
+        <View
+            style="@style/lineView">
+        </View>
+        <View
+            style="@style/lineView">
+        </View>
+    </LinearLayout>
+
+    <ScrollView
+        style="@style/mid_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/amr_diab"
+                    style="@style/song_image"
+                    android:src="@drawable/amr_diab" />
+
+                <TextView
+                    android:id="@+id/n1_song_name"
+                    style="@style/song_name"
+                    android:layout_toRightOf="@+id/amr_diab"
+                    android:text="@string/n1_song" />
+
+                <TextView
+                    style="@style/singer_name"
+                    android:layout_alignLeft="@+id/n1_song_name"
+                    android:layout_alignStart="@+id/n1_song_name"
+                    android:layout_below="@+id/n1_song_name"
+                    android:text="@string/amr_diab" />
+            </RelativeLayout>
+            <View
+                style="@style/Thin_lineView">
+            </View>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+                <ImageView
+                    android:id="@+id/amr_diab_2"
+                    android:src="@drawable/amr_diab"
+                    style="@style/song_image"
+                    android:scaleType="centerCrop"/>
+                <TextView
+                    android:id="@+id/n2_song_name"
+                    style="@style/song_name"
+                    android:text="@string/n6_song"
+                    android:layout_toRightOf="@+id/amr_diab_2"/>
+                <TextView
+                    style="@style/singer_name"
+                    android:text="@string/amr_diab"
+                    android:layout_below="@+id/n2_song_name"
+                    android:layout_alignLeft="@+id/n2_song_name"
+                    android:layout_alignStart="@+id/n2_song_name" />
+            </RelativeLayout>
+            <View
+                style="@style/Thin_lineView">
+            </View>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <ImageView
+                    android:id="@+id/avicii"
+                    style="@style/song_image"
+                    android:src="@drawable/avicii" />
+
+                <TextView
+                    android:id="@+id/n3_song_name"
+                    style="@style/song_name"
+                    android:layout_toRightOf="@+id/avicii"
+                    android:text="@string/n2_song" />
+
+                <TextView
+                    style="@style/singer_name"
+                    android:layout_alignLeft="@+id/n3_song_name"
+                    android:layout_alignStart="@+id/n3_song_name"
+                    android:layout_below="@+id/n3_song_name"
+                    android:text="@string/avicii" />
+            </RelativeLayout>
+            <View
+                style="@style/Thin_lineView">
+            </View>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+                <ImageView
+                    android:id="@+id/maroon5"
+                    android:src="@drawable/maroon5"
+                    style="@style/song_image"/>
+                <TextView
+                    android:id="@+id/n4_song_name"
+                    style="@style/song_name"
+                    android:text="@string/n4_song"
+                    android:layout_toRightOf="@+id/maroon5"/>
+                <TextView
+                    style="@style/singer_name"
+                    android:text="@string/maroon5"
+                    android:layout_below="@+id/n4_song_name"
+                    android:layout_alignLeft="@+id/n4_song_name"
+                    android:layout_alignStart="@+id/n4_song_name" />
+            </RelativeLayout>
+            <View
+                style="@style/Thin_lineView">
+            </View>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+                <ImageView
+                    android:id="@+id/maroon5_2"
+                    android:src="@drawable/maroon5"
+                    style="@style/song_image"/>
+                <TextView
+                    android:id="@+id/n5_song_name"
+                    style="@style/song_name"
+                    android:text="@string/n5_song"
+                    android:layout_toRightOf="@+id/maroon5_2"/>
+                <TextView
+                    style="@style/singer_name"
+                    android:text="@string/maroon5"
+                    android:layout_below="@+id/n5_song_name"
+                    android:layout_alignLeft="@+id/n5_song_name"
+                    android:layout_alignStart="@+id/n5_song_name" />
+            </RelativeLayout>
+            <View
+                style="@style/Thin_lineView">
+            </View>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+                <ImageView
+                    android:id="@+id/avicii_2"
+                    android:src="@drawable/avicii"
+                    style="@style/song_image"/>
+                <TextView
+                    android:id="@+id/n6_song_name"
+                    style="@style/song_name"
+                    android:text="@string/n3_song"
+                    android:layout_toRightOf="@+id/avicii_2"/>
+                <TextView
+                    style="@style/singer_name"
+                    android:text="@string/avicii"
+                    android:layout_below="@+id/n6_song_name"
+                    android:layout_alignLeft="@+id/n6_song_name"
+                    android:layout_alignStart="@+id/n6_song_name" />
+            </RelativeLayout>
+            <View
+                style="@style/Thin_lineView">
+            </View>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        style="@style/musicButton_linear_layout">
+        <ImageView
+            style="@style/musicButton_layout"
+            android:src="@drawable/previous"/>
+        <ImageView
+            style="@style/musicButton_layout"
+            android:src="@drawable/play"/>
+        <ImageView
+            style="@style/musicButton_layout"
+            android:src="@drawable/next"/>
+    </LinearLayout>
+</LinearLayout>
